@@ -15,9 +15,9 @@
         "branch": "jb"
       },
       {
-        "repository":   "TheMuppets/proprietary_vendor_samsung",
-        "target_path":  "vendor/samsung",
-        "branch":     "jellybean"
+        "repository": "SlimRoms/proprietary_vendor_samsung",
+        "target_path": "vendor/samsung",
+        "branch": "jb"
       },
 
       {
