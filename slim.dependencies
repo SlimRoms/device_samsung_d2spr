@@ -1,4 +1,4 @@
-   [
+  [
       {
         "repository": "SlimRoms/device_samsung_msm8960-common",
         "target_path": "device/samsung/msm8960-common",
@@ -19,13 +19,19 @@
         "target_path": "vendor/samsung",
         "branch": "jb4.2"
       },
-
       {
-      "repository": "CyanogenMod/android_kernel_samsung_d2",
+      "repository": "SlimRoms/android_kernel_samsung_d2",
       "target_path": "kernel/samsung/d2",
+      "branch": "jb4.2"
+      },
+      {
+      "repository": "CyanogenMod/android_hardware_qcom_display-caf",
+      "target_path": "hardware/qcom/display-caf",
       "branch": "cm-10.1"
+      },
+      {
+        "repository": "CyanogenMod/android_hardware_qcom_audio-caf",
+        "target_path": "hardware/qcom/audio-caf",
+        "branch": "cm-10.1"
       }
-
   ]
-
-
