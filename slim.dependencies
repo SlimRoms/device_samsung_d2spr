@@ -20,6 +20,11 @@
         "branch": "jb4.2"
       },
       {
+        "repository": "SlimRoms/kernel_samsung_d2",
+        "target_path": "kernel/samsung/d2",
+        "branch": "jb4.2"
+      },
+      {
       "repository": "CyanogenMod/android_hardware_qcom_display-caf",
       "target_path": "hardware/qcom/display-caf",
       "branch": "cm-10.1"
