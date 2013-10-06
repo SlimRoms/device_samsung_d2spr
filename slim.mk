@@ -3,8 +3,9 @@ $(call inherit-product, device/samsung/d2spr/full_d2spr.mk)
 # Release name
 PRODUCT_RELEASE_NAME := d2spr
 
-# Inherit some common SLIM stuff.
-$(call inherit-product, vendor/slim/config/cdma.mk)
+# CDMA APN list
+PRODUCT_COPY_FILES += \
+    device/samsung/d2spr/apns-conf-cdma.xml:system/etc/apns-conf.xml
 
 # Inherit some common SLIM stuff.
 $(call inherit-product, vendor/slim/config/common_full_phone.mk)
