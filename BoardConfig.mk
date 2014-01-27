@@ -29,5 +29,5 @@
 # Assert
 TARGET_OTA_ASSERT_DEVICE := d2spr,d2spi
 
-TARGET_BOARD_INFO_FILE ?= device/samsung/d2spr/board-info.txt
+
 
